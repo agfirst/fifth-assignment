@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: goldenrod;
+}
+#foodsDetail{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+}
+.navbar-nav{
+    margin-left: auto;
+    font-weight: bold;
+}
+.card-body p{
+    padding: 0;
+    margin: 0;
+}
+.Active{
+    background-color: indigo;
+    border-radius: 10px;
+}
+.logo{
+    width: 80px;
+    height: 40px;
+}
